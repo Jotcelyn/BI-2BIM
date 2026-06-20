@@ -1,4 +1,4 @@
-# Informe de Laboratorio: Implementación de Data Warehouse y Analítica de Datos
+# Informe de Laboratorio: MOLAP
 
 ### **Integrantes:**
 * Javier Angulo
