@@ -23,61 +23,61 @@ Javier Angulo, Jotcelyn Godoy, Javier Quilumba, Cristian Robles, Jonathan Tipán
 1. En un Excel se debe realizar el siguiente formato usando la tabla de transacciones dada.
 
 <p align="center">
-  <img src="paso-1.png" alt="Formato en Excel" />
+  <img src="imagenes/paso-1.png" alt="Formato en Excel" />
 </p>
 
 2. Guardar con el nombre "DailyItem Dataset" en el Escritorio como un archivo CSV (delimitado por comas).
 
 <p align="center">
-  <img src="paso-2.png" alt="Guardar archivo CSV" />
+  <img src="imagenes/paso-2.png" alt="Guardar archivo CSV" />
 </p>
 
 3. En Weka, en el explorador, en la ventana de "Preprocess", buscamos el archivo después de dar clic en "Open file" y lo abrimos.
 
 <p align="center">
-  <img src="paso-4.png" alt="Abrir archivo en Weka" />
+  <img src="imagenes/paso-4.png" alt="Abrir archivo en Weka" />
 </p>
 
 **Datos cargados:**
 
 <p align="center">
-  <img src="paso-5.png" alt="Datos cargados en Weka" />
+  <img src="imagenes/paso-5.png" alt="Datos cargados en Weka" />
 </p>
 
 4. Como no se puede aplicar la asociación de datos directamente en datos numéricos, en el botón "Choose" seleccionamos filtros, luego "Unsupervised", entramos a "attribute" y seleccionamos "Numeric to Nominal". Finalmente, se aplican los cambios.
 
 <p align="center">
-  <img src="paso-6.png" alt="Aplicar filtro Numeric to Nominal" />
+  <img src="imagenes/paso-6.png" alt="Aplicar filtro Numeric to Nominal" />
 </p>
 
 **Búsqueda de filtro:**
 
 <p align="center">
-  <img src="paso-7.png" alt="Búsqueda de filtro en Weka" />
+  <img src="imagenes/paso-7.png" alt="Búsqueda de filtro en Weka" />
 </p>
 
 **Aplicando el filtro obtenemos esto:**
 
 <p align="center">
-  <img src="paso-8.png" alt="Resultado del filtro aplicado" />
+  <img src="imagenes/paso-8.png" alt="Resultado del filtro aplicado" />
 </p>
 
 5. Eliminamos los atributos que no necesitamos; en este caso se lo hará con "Transaction", primero se selecciona dicho check en el menú de la izquierda y luego se presiona el botón de "Remove".
 
 <p align="center">
-  <img src="paso-9.png" alt="Eliminar atributo Transaction" />
+  <img src="imagenes/paso-9.png" alt="Eliminar atributo Transaction" />
 </p>
 
 **El atributo "Transaction" eliminado:**
 
 <p align="center">
-  <img src="paso-10.png" alt="Atributo Transaction eliminado" />
+  <img src="imagenes/paso-10.png" alt="Atributo Transaction eliminado" />
 </p>
 
 6. Una vez "limpios" los datos cargados, seleccionamos la pestaña de "Associate" y, en "Choose", seleccionamos la opción "Apriori" de "associations".
 
 <p align="center">
-  <img src="paso-11.png" alt="Seleccionar Apriori en Weka" />
+  <img src="imagenes/paso-11.png" alt="Seleccionar Apriori en Weka" />
 </p>
 
 7. Ahora, para ingresar al editor de objetos generales, se da clic en el campo de "Apriori" y se realizan cambios en algunos campos según lo requerido:
@@ -90,19 +90,19 @@ Javier Angulo, Jotcelyn Godoy, Javier Quilumba, Cristian Robles, Jonathan Tipán
 Luego se selecciona "OK".
 
 <p align="center">
-  <img src="paso-12.png" alt="Configuración de Apriori" />
+  <img src="imagenes/paso-12.png" alt="Configuración de Apriori" />
 </p>
 
 8. Finalmente, se selecciona el botón de "Start" y se obtienen los resultados en la pantalla derecha.
 
 <p align="center">
-  <img src="paso-13.png" alt="Resultados obtenidos en Weka" />
+  <img src="imagenes/paso-13.png" alt="Resultados obtenidos en Weka" />
 </p>
 
 9. Ahora podemos interpretar los resultados, observando la imagen respectiva a las reglas encontradas.
 
 <p align="center">
-  <img src="paso-14.png" alt="Reglas encontradas en Weka" />
+  <img src="imagenes/paso-14.png" alt="Reglas encontradas en Weka" />
 </p>
 
 **Se puede resumir en que la mejor regla encontrada es:**
@@ -123,61 +123,61 @@ El orden dado por el porcentaje de mayor a menor, que en este caso nos arroja qu
 1. En un Excel se debe realizar el siguiente formato y guardarse como un archivo CSV.
 
 <p align="center">
-  <img src="image.png" alt="Formato en Excel" />
+  <img src="imagenes/image.png" alt="Formato en Excel" />
 </p>
 
 2. Guardar con el nombre "DailyItmen2 Dataset" en el Escritorio como un archivo CSV (delimitado por comas).
 
 <p align="center">
-  <img src="image-1.png" alt="Guardar archivo CSV" />
+  <img src="imagenes/image-1.png" alt="Guardar archivo CSV" />
 </p>
 
 3. En Weka, en el explorador, en la ventana de "Preprocess", buscamos el archivo después de dar clic en "Open file" y lo abrimos.
 
 <p align="center">
-  <img src="image-2.png" alt="Abrir archivo en Weka" />
+  <img src="imagenes/image-2.png" alt="Abrir archivo en Weka" />
 </p>
 
 **Datos cargados:**
 
 <p align="center">
-  <img src="image-3.png" alt="Datos cargados en Weka" />
+  <img src="imagenes/image-3.png" alt="Datos cargados en Weka" />
 </p>
 
 4. Como no se puede aplicar la asociación de datos directamente en datos numéricos, en el botón "Choose" seleccionamos filtros, luego "Unsupervised" y "Numeric to Nominal". Finalmente, se aplican los cambios.
 
 <p align="center">
-  <img src="image-4.png" alt="Aplicar filtro Numeric to Nominal" />
+  <img src="imagenes/image-4.png" alt="Aplicar filtro Numeric to Nominal" />
 </p>
 
 **Búsqueda de filtro**
 
 <p align="center">
-  <img src="image-5.png" alt="Búsqueda de filtro en Weka" />
+  <img src="imagenes/image-5.png" alt="Búsqueda de filtro en Weka" />
 </p>
 
 **Aplicando el filtro obtenemos esto:**
 
 <p align="center">
-  <img src="image-6.png" alt="Resultado del filtro aplicado" />
+  <img src="imagenes/image-6.png" alt="Resultado del filtro aplicado" />
 </p>
 
 5. Eliminamos los atributos que no necesitamos; en este caso se lo hará con "Transaction", primero se selecciona dicho check en el menú de la izquierda y luego se presiona el botón de "Remove".
 
 <p align="center">
-  <img src="image-7.png" alt="Eliminar atributo Transaction" />
+  <img src="imagenes/image-7.png" alt="Eliminar atributo Transaction" />
 </p>
 
 **El atributo "Transaction" eliminado**
 
 <p align="center">
-  <img src="image-8.png" alt="Atributo Transaction eliminado" />
+  <img src="imagenes/image-8.png" alt="Atributo Transaction eliminado" />
 </p>
 
 6. Una vez "limpios" los datos cargados, seleccionamos la pestaña de "Associate" y, en "Choose", seleccionamos la opción "Apriori" de "association".
 
 <p align="center">
-  <img src="image-9.png" alt="Seleccionar Apriori en Weka" />
+  <img src="imagenes/image-9.png" alt="Seleccionar Apriori en Weka" />
 </p>
 
 7. Ahora, para ingresar al editor de objetos generales, se da clic en el campo de "Apriori" y se realizan cambios en algunos campos:
@@ -189,19 +189,19 @@ El orden dado por el porcentaje de mayor a menor, que en este caso nos arroja qu
 Luego se selecciona "OK".
 
 <p align="center">
-  <img src="image-10.png" alt="Configuración de Apriori" />
+  <img src="imagenes/image-10.png" alt="Configuración de Apriori" />
 </p>
 
 8. Finalmente, se selecciona el botón de "Start" y se obtienen los resultados.
 
 <p align="center">
-  <img src="image-11.png" alt="Resultados obtenidos en Weka" />
+  <img src="imagenes/image-11.png" alt="Resultados obtenidos en Weka" />
 </p>
 
 9. Ahora podemos interpretar los resultados; observando la imagen respectiva a las reglas encontradas.
 
 <p align="center">
-  <img src="image-12.png" alt="Reglas encontradas en Weka" />
+  <img src="imagenes/image-12.png" alt="Reglas encontradas en Weka" />
 </p>
 
 **Se puede resumir en que las mejores reglas son:**
@@ -225,7 +225,7 @@ El orden dado por el porcentaje de mayor a menor, ordenados de manera descendent
 1. Se cargó en Weka el archivo con las calificaciones de los estudiantes. El conjunto original contiene los atributos **Roll No.**, **Name**, **MST**, **Quiz**, **Lab**, **ENDSEM**, **Total** y **Grade**, con un total de **9 registros**.
 
 <p align="center">
-  <img src="10_8_01.png" alt="Datos originales de calificaciones cargados en Weka" />
+  <img src="imagenes/10_8_01.png" alt="Datos originales de calificaciones cargados en Weka" />
 </p>
 
 2. Los atributos **Roll No.** y **Name** se eliminaron porque únicamente identifican al estudiante y no aportan información relevante para descubrir asociaciones entre su rendimiento académico. Después de esta limpieza quedaron los siguientes seis atributos:
@@ -240,7 +240,7 @@ El orden dado por el porcentaje de mayor a menor, ordenados de manera descendent
 A continuación, se seleccionó el filtro **Unsupervised > Attribute > Discretize**, debido a que los algoritmos de asociación trabajan con atributos nominales y las calificaciones se encontraban almacenadas como valores numéricos.
 
 <p align="center">
-  <img src="10_8_02.png" alt="Atributos académicos después de eliminar identificadores y seleccionar Discretize" />
+  <img src="imagenes/10_8_02.png" alt="Atributos académicos después de eliminar identificadores y seleccionar Discretize" />
 </p>
 
 3. En las propiedades del filtro se configuraron **3 intervalos** y se habilitó la opción de **frecuencia igual**. De esta manera, cada atributo numérico fue convertido en tres categorías que representan un nivel bajo, medio o alto de rendimiento.
@@ -254,19 +254,19 @@ Después de aplicar el filtro, el atributo **MST** quedó dividido en los siguie
 | Alto | `(16.5-inf)` | 2 |
 
 <p align="center">
-  <img src="10_8_03.png" alt="Resultado de la discretización de las calificaciones en tres intervalos" />
+  <img src="imagenes/10_8_03.png" alt="Resultado de la discretización de las calificaciones en tres intervalos" />
 </p>
 
 4. Una vez que los atributos fueron convertidos a valores nominales, se ingresó a la pestaña **Associate**, se seleccionó el algoritmo **PredictiveApriori** y se revisó su configuración en el editor de propiedades.
 
 <p align="center">
-  <img src="10_8_04.png" alt="Configuración del algoritmo PredictiveApriori" />
+  <img src="imagenes/10_8_04.png" alt="Configuración del algoritmo PredictiveApriori" />
 </p>
 
 5. Finalmente, se ejecutó el algoritmo y Weka generó reglas de asociación ordenadas según su **exactitud predictiva (`acc`)**.
 
 <p align="center">
-  <img src="10_8_05.png" alt="Reglas encontradas por PredictiveApriori en el ejercicio 10.8" />
+  <img src="imagenes/10_8_05.png" alt="Reglas encontradas por PredictiveApriori en el ejercicio 10.8" />
 </p>
 
 ### Análisis de resultados
@@ -298,7 +298,7 @@ Sin embargo, el conjunto utilizado contiene únicamente **9 estudiantes**. Por e
 1. Se partió de un conjunto con **60 registros** y los atributos **MST**, **Quiz**, **Lab**, **ENDSEM**, **Total** y **Grade**. Los valores numéricos se organizaron para efectuar la discretización manual de cada columna.
 
 <p align="center">
-  <img src="10_9_01.png" alt="Conjunto numérico de 60 registros antes de la discretización manual" />
+  <img src="imagenes/10_9_01.png" alt="Conjunto numérico de 60 registros antes de la discretización manual" />
 </p>
 
 2. Para cada atributo se ordenaron las calificaciones y se reemplazaron por las categorías:
@@ -310,7 +310,7 @@ Sin embargo, el conjunto utilizado contiene únicamente **9 estudiantes**. Por e
 Como criterio inicial se buscó ubicar aproximadamente al **20 %** de los estudiantes en el nivel bajo, al **60 %** en el nivel medio y al **20 %** en el nivel alto. Cuando varios estudiantes presentaron la misma calificación en un punto de corte, el límite se desplazó para evitar que un mismo valor quedara dividido entre dos categorías.
 
 <p align="center">
-  <img src="10_9_02.png" alt="Datos transformados manualmente a categorías L M y H" />
+  <img src="imagenes/10_9_02.png" alt="Datos transformados manualmente a categorías L M y H" />
 </p>
 
 3. El archivo discretizado se guardó en formato CSV y se cargó en Weka. El sistema reconoció los seis atributos como nominales. En el caso de **MST**, la distribución resultante fue:
@@ -324,13 +324,13 @@ Como criterio inicial se buscó ubicar aproximadamente al **20 %** de los estudi
 La distribución no es exactamente 12-36-12 porque se respetaron los empates existentes en los puntos de corte.
 
 <p align="center">
-  <img src="10_9_03.png" alt="Dataset discretizado cargado en Weka con distribución L M y H" />
+  <img src="imagenes/10_9_03.png" alt="Dataset discretizado cargado en Weka con distribución L M y H" />
 </p>
 
 4. En la pestaña **Associate** se seleccionó **PredictiveApriori** con su configuración general, es decir, sin restringir las reglas a la clase **Grade**. Weka analizó asociaciones entre cualquiera de los seis atributos.
 
 <p align="center">
-  <img src="10_9_04.png" alt="Reglas generales generadas por PredictiveApriori" />
+  <img src="imagenes/10_9_04.png" alt="Reglas generales generadas por PredictiveApriori" />
 </p>
 
 ### Análisis de las reglas generales
@@ -351,13 +351,13 @@ Estas reglas evidencian que la categoría **M** concentra una gran parte de los 
 5. Para obtener únicamente reglas cuyo consecuente sea la calificación final, se abrió la configuración de **PredictiveApriori** y se cambió el parámetro **`car` a `True`**. El último atributo, **Grade**, quedó definido como clase.
 
 <p align="center">
-  <img src="10_9_05.png" alt="Configuración CAR en True para reglas orientadas a Grade" />
+  <img src="imagenes/10_9_05.png" alt="Configuración CAR en True para reglas orientadas a Grade" />
 </p>
 
 6. Se ejecutó nuevamente el algoritmo. Esta vez todas las reglas generadas tuvieron como resultado una categoría de **Grade**.
 
 <p align="center">
-  <img src="10_9_06.png" alt="Reglas de asociación de clase orientadas a la calificación Grade" />
+  <img src="imagenes/10_9_06.png" alt="Reglas de asociación de clase orientadas a la calificación Grade" />
 </p>
 
 ### Análisis de las reglas orientadas a Grade
@@ -379,13 +379,13 @@ La regla más sólida es **`Total = H => Grade = A`**, debido a que incluye 18 r
 Al volver a cargar el archivo, por ejemplo, el atributo MST presentó **28 valores faltantes**, mientras que permanecieron 15 valores L y 17 valores H.
 
 <p align="center">
-  <img src="10_9_07.png" alt="Dataset con valores M reemplazados por valores faltantes" />
+  <img src="imagenes/10_9_07.png" alt="Dataset con valores M reemplazados por valores faltantes" />
 </p>
 
 8. Se ejecutó nuevamente **PredictiveApriori** sobre el conjunto modificado.
 
 <p align="center">
-  <img src="10_9_08.png" alt="Reglas generadas después de reemplazar M por valores faltantes" />
+  <img src="imagenes/10_9_08.png" alt="Reglas generadas después de reemplazar M por valores faltantes" />
 </p>
 
 ### Análisis del conjunto sin valores medios
